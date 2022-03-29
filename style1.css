@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+  
+    width: 100%;
+    min-height:100vh;
+    /* background-image: url("blue-aesthetic-wallpaper-1920x1080-2-920x518.jpeg");
+    background-size: cover; */
+    background-color: black;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    background-color: blueviolet;
+    width: 400px;
+    min-height: 400px ;
+    background-color: #20C20E;
+    border-radius: 5px;
+    box-shadow: 0 0 5px ;
+    padding: 40px 45px;
+}
+.login_text{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+
+}
+.btn{
+    width: 70px;
+    height: 25px;
+    position: relative;
+    left: 130px ;
+
+
+
+}
+.username{
+    width: 75%;
+    height: 30px;
+    border: 2px solid;
+    padding: 15px 25 px;
+    font-size: 1rem;
+    border-radius:30px;
+    margin-bottom:25px ;
+
+
+}
+.mail{
+    width: 75%;
+    height: 30px;
+    border: 2px solid;
+    padding: 15px 25 px;
+    font-size: 1rem;
+    border-radius:30px;
+    margin-bottom:25px ;
+
+}
+.passwd1{
+    width: 75%;
+    height: 30px;
+    border: 2px solid;
+    padding: 15px 25 px;
+    font-size: 1rem;
+    border-radius:30px;
+    margin-bottom:25px ;
+    
+}
+.passwd2{
+    width: 75%;
+    height: 30px;
+    border: 2px solid;
+    padding: 15px 25 px;
+    font-size: 1rem;
+    border-radius:30px;
+    margin-bottom:25px ;
+}
+.mail::placeholder{
+    padding: 0 20px;
+    color: #20C20E;
+    
+}
+.username::placeholder{
+    padding: 0 20px;
+    color: #20C20E;
+    
+    
+}
+.passwd1::placeholder{
+    padding: 0 20px;
+    color: #20C20E;
+    
+}
+.passwd2::placeholder{
+    padding: 0 20px;
+    color: #20C20E;
+    
+}
